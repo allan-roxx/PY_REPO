@@ -6,10 +6,6 @@ filename=datetime.datetime.now()
 #filename= str(filename)
 filename= filename.strftime("%d-%b-%Y-%H-%M--%S")
 
-    
-
-
-filename
 with open("file1.txt", 'r') as file:
     file.seek(0)
     content1= file.readlines()
@@ -33,4 +29,15 @@ def file_name():
 
 file_name()
 
-#with open(now, '+') as file:
+
+"""Better code from instructor"""
+# import glob2
+# import datetime
+
+# filenames=glob2.glob("*.txt")
+
+# with open(datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S-%f")+".txt", 'w') as file:
+# for filename in filenames:
+# with open(filename,"r") as f:
+# file.write(f.read()+"\n")
+
