@@ -1,6 +1,6 @@
 import json
 import sys
-
+from difflib import get_close_matches
 # Function to prompt the user to continue or exit the application
 def quit_app():
     while True:
@@ -18,10 +18,13 @@ def search_word(word):
         if word in dictionary:
             print(dictionary[word])
             quit_app()
-            
+            word = input("Enter another word: ").lower().strip()
+        elif len(get_close_matches(word, dictionary.keys()))>0:
+            print("did you mean %s instead" %get_close_matches(word, dictionary.keys())[0] )
+            word = input("Enter corrected word: ").lower().strip()
         else:
             print("Word doesn't exist (^_^). Search for another word!")
-        word = input("Enter another word: ").lower()
+            word = input("Enter another word: ").lower().strip()
 
 # Load the dictionary from the JSON file
 dictionary = json.load(open("/mnt/23C62AAA2960B420/PY_REPO/interactive_dictionary/data.json"))
