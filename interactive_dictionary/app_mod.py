@@ -4,7 +4,7 @@ from difflib import get_close_matches
 # Function to prompt the user to continue or exit the application
 def quit_app():
     while True:
-        user_input = input("Do you wish to continue: (y/n) ").strip().lower()
+        user_input = input("\nDo you wish to continue: (y/n) ").strip().lower()
         if user_input == "y":
             return
         elif user_input == "n":
@@ -16,7 +16,9 @@ def quit_app():
 def search_word(word):
     while True:
         if word in dictionary:
-            print(dictionary[word])
+            output=dictionary[word]
+            for i in output:
+                print(i)
             quit_app()
             word = input("Enter another word: ").lower().strip()
         elif len(get_close_matches(word, dictionary.keys()))>0:

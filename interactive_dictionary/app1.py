@@ -3,7 +3,7 @@ from difflib import get_close_matches
 import sys
 
 def quit_app():
-    quit=input("Do you wish to continue: (Y/n)")
+    quit=input("\nDo you wish to continue: (Y/n)")
     if quit == "Y":
         return
     elif quit == "n":
@@ -15,7 +15,9 @@ def quit_app():
 
 def file_search(word):
     if word in dictionary:
-        print(dictionary[word])
+        output= dictionary[word]
+        for i in output:
+            print(i)
         quit_app()
         replace_word=input("what more do you wanna know?").lower().strip()
         file_search(replace_word)
@@ -26,7 +28,7 @@ def file_search(word):
             file_search(match_word)
     else:
         print("word doesn't exist(^_^).\n search for another word!!")
-        replace_word=input().lower().strip()#so you aren't confused yet again: this is the input for the preceding sentence
+        replace_word=input().lower().strip()#so you aren't confused yet again: this is the input for the preceding  code
         file_search(replace_word)
         
     quit_app()
@@ -52,6 +54,6 @@ dictionary= json.load(open("/mnt/23C62AAA2960B420/PY_REPO/interactive_dictionary
 #     return word
 word=input("What word do you wish to understand today?:").lower().strip()
 file_search(word)
-repeat= input("what else do you wanna know?").lower().strip()
+#repeat= input("what else do you wanna know?").lower().strip()
 #repeat_search(repeat)
 quit_app()
