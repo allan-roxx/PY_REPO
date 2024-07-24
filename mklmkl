@@ -1,0 +1,98 @@
+[33mcommit 772eed1efd9a99704a27e2d36db686db0d547de9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Allan Roxx <allanroxx78@gmail.com>
+Date:   Wed Jul 24 11:52:52 2024 +0300
+
+    modify pandas training file
+
+[33mcommit c6c73459f4fae363c3bd5718688b8db5c4470b18[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 23 16:50:01 2024 +0300
+
+    pandas workbook
+
+[33mcommit 59d2f05672dba2af20d87424be0e220e76790f99[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Thu Jul 18 20:38:14 2024 +0300
+
+    modified the dictionary code to also give closest match where user input is wrong but has close hits
+
+[33mcommit dbda9e6ad871902ca3341df020ac05ca44cd5037[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Thu Jul 18 19:56:04 2024 +0300
+
+    corrected bugs, and made case  match between input and dictionary text
+
+[33mcommit 13b8b907404d450e765f4c4400b5618bbd66cea5[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Thu Jul 18 19:19:05 2024 +0300
+
+    Introduction
+    
+    I have added in an english dictionary  app under the name app1.py, with a more refined app_mod.py .
+    It reads the data from data.json
+
+[33mcommit 7e6291c12eaff1fe57f2e511fed507054e02050b[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Wed Jul 17 16:49:46 2024 +0300
+
+    mod for  merge.py
+
+[33mcommit 3db8003b9ba6e59e62dfbfae6ec5fe35ba8edd16[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Wed Jul 17 16:39:27 2024 +0300
+
+    added merge.py that creates a time stamped file and merges in there the contents of file one file2 and file 3
+
+[33mcommit 7917dfe3a646bc193b11396b5524b21b28d927c1[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Wed Jul 17 14:53:21 2024 +0300
+
+    index append
+
+[33mcommit 5b84ca3fd195ad151afc533a19e83c9fd0050ecd[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Wed Jul 17 00:59:28 2024 +0300
+
+    second initial commit
+
+[33mcommit e781741322858d7265d76ecf13dc1e2ddde2b43d[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Wed Jul 17 00:28:25 2024 +0300
+
+    delete file.txt
+
+[33mcommit 8c5f7a737393dd0e08008d1ceb9291fb6c0deca3[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:39:20 2024 +0300
+
+    add file with dummy text
+
+[33mcommit 4c1a9cb1f7aacafac5b0e92685bb2bee043a2a63[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:31:28 2024 +0300
+
+    ignored files
+
+[33mcommit 815087e79315b3a7e84c23c4f68f324880d1ec20[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:24:14 2024 +0300
+
+    wrongly named file removed
+
+[33mcommit 53b4ec63f077cbf5ae7a3dfc637826ef3db370f9[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:22:55 2024 +0300
+
+    main,js added
+
+[33mcommit be7ac8560556f582363766328765d8c488e38d75[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:17:46 2024 +0300
+
+    unnecessary code deleted
+
+[33mcommit cfc321e419ff0b335de158af350f35772f3edb39[m
+Author: Allan Kebaso <allanroxx78@gmail.com>
+Date:   Tue Jul 16 23:10:19 2024 +0300
+
+    Initial commit
